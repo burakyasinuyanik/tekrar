@@ -1,11 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Tekrar.Data;
+using Tekrar.Repository.Shared.Abstract;
+using Tekrar.Repository.Shared.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 var app = builder.Build();
 

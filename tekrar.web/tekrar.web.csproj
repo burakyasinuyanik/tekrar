@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tekrar.Data\Tekrar.Data.csproj" />
+    <ProjectReference Include="..\Tekrar.Repository\Tekrar.Repository.csproj" />
   </ItemGroup>
 
   <ItemGroup>

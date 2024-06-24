@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekrar.Models", "Tekrar.Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekrar.Data", "Tekrar.Data\Tekrar.Data.csproj", "{A24C8BBB-5B25-4DFA-86BF-C8451C707451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekrar.Repository", "Tekrar.Repository\Tekrar.Repository.csproj", "{F203EC6C-25B9-43F3-928C-CAA3A62EC363}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A24C8BBB-5B25-4DFA-86BF-C8451C707451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A24C8BBB-5B25-4DFA-86BF-C8451C707451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A24C8BBB-5B25-4DFA-86BF-C8451C707451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F203EC6C-25B9-43F3-928C-CAA3A62EC363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F203EC6C-25B9-43F3-928C-CAA3A62EC363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F203EC6C-25B9-43F3-928C-CAA3A62EC363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F203EC6C-25B9-43F3-928C-CAA3A62EC363}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
