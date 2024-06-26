@@ -19,5 +19,6 @@ namespace Tekrar.Data
             
         }
         public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<Author> Authors { get; set; }
     }
 }
